@@ -1,4 +1,4 @@
-do  local ui =  game:GetService("CoreGui").RobloxGui.Modules:FindFirstChild("Ax259")  if ui then ui:Destroy() end end
+local ui = game:GetService("CoreGui").RobloxGui.Modules:FindFirstChild("Ax259")  if ui then ui:Destroy() end
 
 local library = {
 	Version = "0.35",
