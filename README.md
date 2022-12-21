@@ -1,4 +1,4 @@
-do  local ui =  game:GetService("CoreGui").RobloxGui:FindFirstChild("Axe259")  if ui then ui:Destroy() end end
+do  local ui =  game:GetService("CoreGui"):FindFirstChild("Axe259")  if ui then ui:Destroy() end end
 
 
 local library = {
