@@ -1,4 +1,5 @@
-local ui = game:GetService("CoreGui").RobloxGui.Modules:FindFirstChild("Ax259")  if ui then ui:Destroy() end
+do  local ui =  game:GetService("CoreGui").RobloxGui:FindFirstChild("Axe259")  if ui then ui:Destroy() end end
+
 
 local library = {
 	Version = "0.35",
@@ -1554,7 +1555,7 @@ function library:CreateWindow(options, ...)
 	library.globals["__Window" .. options.Name] = {
 		submenuOpen = submenuOpen
 	}
-	pepsiLibrary.Name = "Ax259"
+	pepsiLibrary.Name = "Axe259"
 	pepsiLibrary.Parent = library.gui_parent
 	pepsiLibrary.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 	pepsiLibrary.DisplayOrder = 10
