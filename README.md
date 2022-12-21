@@ -1,8 +1,7 @@
 local Ui = game:GetService("CoreGui"):FindFirstChild("Axe259")
 if Ui then
-   Ui:Destory() 
+   Ui:Destroy() 
 end
-
 
 local library = {
 	Version = "0.35",
