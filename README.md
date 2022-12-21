@@ -1,4 +1,7 @@
-do  local ui =  game:GetService("CoreGui"):FindFirstChild("Axe259")  if ui then ui:Destroy() end end
+local Ui = game:GetService("CoreGui"):FindFirstChild("Axe259")
+if Ui then
+   Ui:Destory() 
+end
 
 
 local library = {
